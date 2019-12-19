@@ -2,7 +2,7 @@
 // @name         one-click-github-SSH-clone 
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Userscript that adds a button to the left of Github's green clone button which copies the SSH clone URL to your clipboard when you click it. Without showing a menu first. 
 // @author       You
 // @match        https://github.com/*
 // @grant        none
