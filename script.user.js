@@ -45,7 +45,7 @@ function actions(){
 	newButton.onclick = function() {
 		copyToClipboard(getSshUrl())
 		console.log("copied SSH clone url to clipboard")
-		newButton.innerHTML = "&nbsp;&nbsp;Copied&nbsp;&nbsp;"
+		newButton.innerHTML = "Copied"
 		setTimeout(function(){
 			newButton.innerHTML = "Quickclone"
 		}, 396)
